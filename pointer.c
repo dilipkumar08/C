@@ -6,6 +6,8 @@ int main()
     scanf("%s",a);
     printf("a :%s",a);
     char *p=a;
-    printf("address of a:\n%p",p);
-    return 0;
+    printf("\naddress of a:%p",p);
+    printf("\n%s",p);
+return 0;    
+    
 }
